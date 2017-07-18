@@ -4,14 +4,8 @@ config.SERVER_PORT = process.env.PORT || 3000;
 
 config.BOT_NAME = process.env.TELEGRAM_USERNAME;
 config.TOKEN = process.env.TELEGRAM_TOKEN;
-config.START_MESSAGE = "🇮🇹ITA: Mandami un messaggio con scritto
--  /s per foto HOT 
-- /gif per GIF o VIDEO HOT!
-- /h per Hentai!";
-config.HELP_MESSAGE = "🇺🇸EN:Send me a message typing:
-- /s for HOT pictures 
--  /gif for hot and Sexy GIFS!
-- /h for Hentai Pics!";
+config.START_MESSAGE = "Send me a message using the commands / Mandami un messaggio usando i comandi";
+config.HELP_MESSAGE = "Send me a message using the commands / Mandami un messaggio usando i comandi";
 config.TIME_LIMIT = 2;
 
 config.TELEGRAM_BASE_URL = "https://api.telegram.org/bot";
